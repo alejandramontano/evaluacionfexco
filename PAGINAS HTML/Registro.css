@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Varela Round;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background-color:#d7bada;
+ }
+/*  NAVEGACION-ENCABEZADO */
+.navegacionseis{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(20, 1, 19);
+    z-index: 1000;
+}
+.navlistaseis__ol{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:100px;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    color: azure;
+    text-align: center;
+}
+.navlistaseis__ol--fondoseis{
+    background-color: rgba(151, 30, 141, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.9));
+    position: relative;
+    top: -13px;
+    left: -55px;
+}
+.navlistaseis__ol--fondoseis:hover{
+    background-color:rgba(159, 168, 162, 0.7);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+.navlogoseis__logo img{
+    position: relative;
+    top: 20px;
+    left: 40px;
+   }
+/*    MAIN CONTENIDO */
+.registro{
+    background-color:rgba(15, 1, 94, 0.7);
+    padding: 50px;
+    border-radius: 30px;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
+.registro__titulo{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.registro__parrafo{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+button[popovertarget] {
+    background-color: rgb(80, 6, 74);
+    color: bisque;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+button[popovertarget]:hover{
+    background-color:rgba(159, 168, 162, 0.7);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+.resgistro__formulario{
+    background-color:rgba(134, 140, 228, 0.7);
+    padding: 5px;
+    border-radius: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.registro__popover--formulario input[type="text"], .registro__popover--formulario input[type="number"], .registro__popover--formulario input[type="email"], .registro__popover--formulario input[type="file"]{
+    color: rgb(77, 76, 76);
+    width: 90%;
+    padding: 10px;
+    margin: 5px 5px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #5c5b5b;
+    background-color: rgba(231, 240, 234, 0.7);
+}
+label{
+    color: rgb(32, 32, 31);
+    font-size: 15px;
+    text-align: center;
+}
+textarea{
+    color: rgb(77, 76, 76);
+    width: 90%;
+    padding: 10px;
+    margin: 5px 5px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #5c5b5b;
+    background-color: rgba(231, 240, 234, 0.7);
+}
+.registro__popover--formulario button[type="submit"]{
+    background-color: rgb(80, 6, 74);
+    color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+.registro__popover--formulario button[type="submit"]:hover{
+    background-color:rgba(159, 168, 162, 0.7);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+.inicio-boton{
+    background-color: rgb(80, 6, 74);
+    color: bisque;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    top: 150px;
+}
+.inicio-boton:hover{
+    background-color:rgba(159, 168, 162, 0.7);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+/* PIE DE PAGINA */
+.piedepaginasiete{
+    background-color: rgba(54, 3, 50, 0.5);
+    padding: 15px;
+    margin-top: 200px;
+}
+.piedepaginasiete__redessocialessiete{
+    display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        gap:200px;
+        font-size: 50px;
+}
+i{
+    color: bisque;
+}
+i:hover{
+    transform: translateY(-20px);
+    transform: scale(1.2);
+}
+.parrafosiete__piepagina{
+    color: bisque;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+   }
